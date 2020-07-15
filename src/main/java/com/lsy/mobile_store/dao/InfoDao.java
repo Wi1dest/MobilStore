@@ -6,7 +6,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import java.util.List;
 
 /**
- * @Author : 卢树雁
+ * @Author : Lo Shu-ngan
  * @Classname InfoDao
  * @Description 商品信息类DAO层
  * @Date 2020/07/15 16:57

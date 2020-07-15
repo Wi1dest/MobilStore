@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * @Author : 卢树雁
+ * @Author : Lo Shu-ngan
  * @Classname TagUtil
  * @Description InfoVo中的Tag标签生成
  * @Date 2020/07/15 20:53

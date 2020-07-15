@@ -7,10 +7,8 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 import java.util.List;
 
-import static org.junit.jupiter.api.Assertions.*;
-
 /**
- * @Author : 卢树雁
+ * @Author : Lo Shu-ngan
  * @Classname SpecsDaoTest
  * @Description TODO
  * @Date 2020/07/15 17:06
@@ -22,8 +20,12 @@ class SpecsDaoTest {
 
     @Test
     void test(){
-        List<Specs> all = specsDao.findAll();
+/*        List<Specs> all = specsDao.findAll();
         for (Specs specs : all) {
+            System.out.println(specs);
+        }*/
+        List<Specs> allByGoodsId = specsDao.findAllByGoodsId(1);
+        for (Specs specs : allByGoodsId) {
             System.out.println(specs);
         }
     }

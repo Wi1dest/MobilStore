@@ -12,7 +12,7 @@ import java.math.BigDecimal;
 import java.util.Date;
 
 /**
- * @Author : 卢树雁
+ * @Author : Lo Shu-ngan
  * @Classname Specs
  * @Description 商品规格
  * @Date 2020/07/15 17:00
@@ -32,7 +32,7 @@ public class Specs {
     /**
      * 商品ID
      */
-    private String goodsId;
+    private Integer goodsId;
 
     /**
      * 规格名字

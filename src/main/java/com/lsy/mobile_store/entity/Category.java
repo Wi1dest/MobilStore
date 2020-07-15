@@ -11,7 +11,7 @@ import javax.persistence.Id;
 import java.util.Date;
 
 /**
- * @Author : 卢树雁
+ * @Author : Lo Shu-ngan
  * @Classname Category
  * @Description 类别
  * @Date 2020/07/15 16:39

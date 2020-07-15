@@ -13,7 +13,7 @@ import javax.persistence.Id;
 import java.util.Date;
 
 /**
- * @Author : 卢树雁
+ * @Author : Lo Shu-ngan
  * @Classname BuyerAddress
  * @Description 买家地址
  * @Date 2020/07/15 17:22

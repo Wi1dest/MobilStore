@@ -4,7 +4,7 @@ import com.lsy.mobile_store.entity.Category;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 /**
- * @Author : 卢树雁
+ * @Author : Lo Shu-ngan
  * @Classname CategoryDao
  * @Description 类别DAO层
  * @Date 2020/07/15 16:45

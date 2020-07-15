@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * @Author : 卢树雁
+ * @Author : Lo Shu-ngan
  * @Classname InfoVo
  * @Description 商品Vo
  * @Date 2020/07/15 20:28

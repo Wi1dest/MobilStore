@@ -12,7 +12,7 @@ import java.math.BigDecimal;
 import java.util.Date;
 
 /**
- * @Author : 卢树雁
+ * @Author : Lo Shu-ngan
  * @Classname OrderMaster
  * @Description 订单
  * @Date 2020/07/15 17:10

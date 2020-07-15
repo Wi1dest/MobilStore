@@ -7,10 +7,8 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 import java.util.List;
 
-import static org.junit.jupiter.api.Assertions.*;
-
 /**
- * @Author : 卢树雁
+ * @Author : Lo Shu-ngan
  * @Classname BuyerAddressDaoTest
  * @Description TODO
  * @Date 2020/07/15 17:26

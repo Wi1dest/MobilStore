@@ -4,25 +4,25 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.util.List;
+import java.util.Map;
 
 /**
  * @Author : Lo Shu-ngan
- * @Classname DataVo
- * @Description 数据VO
- * @Date 2020/07/15 20:23
+ * @Classname SpecsVo
+ * @Description 商品规格Vo
+ * @Date 2020/07/15 21:40
  */
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class DataVo {
+public class SpecsVo {
     /**
-     * 类别集合
+     * 商品
      */
-    List<CategoryVo> categoryList;
+    private Map<String,String> goods;
 
     /**
-     * 商品信息集合
+     * 商品规格
      */
-    List<InfoVo> infoList;
+    private SkuVo skuVo;
 }

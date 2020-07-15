@@ -4,7 +4,7 @@ import com.lsy.mobile_store.entity.OrderMaster;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 /**
- * @Author : 卢树雁
+ * @Author : Lo Shu-ngan
  * @Classname OrderMasterDao
  * @Description 订单DAO层
  * @Date 2020/07/15 17:20
