@@ -1,5 +1,6 @@
 package com.lsy.mobile_store.vo;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -19,10 +20,12 @@ public class DataVo {
     /**
      * 类别集合
      */
+    @JsonProperty("categories")
     List<CategoryVo> categoryList;
 
     /**
      * 商品信息集合
      */
+    @JsonProperty("goodsList")
     List<InfoVo> infoList;
 }

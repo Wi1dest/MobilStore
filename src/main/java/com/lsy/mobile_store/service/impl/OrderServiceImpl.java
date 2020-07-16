@@ -58,6 +58,8 @@ public class OrderServiceImpl implements OrderService {
             throw new GoodsException(NOT_EXIST);
         }
         BeanUtils.copyProperties(info,orderMaster);
+        orderMaster.setGoodsIcon(info.getIcon());
+        orderMaster.setGoodsName(info.getName());
 
         //计算总价
         BigDecimal orderAmount = new BigDecimal(0);

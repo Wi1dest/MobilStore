@@ -14,6 +14,7 @@ import com.lsy.mobile_store.vo.*;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -147,6 +148,7 @@ public class GoodsServiceImpl implements GoodsService {
      * @param quantity 数量
      */
     @Override
+    @Transactional
     public void subStock(Integer specsId, Integer quantity) {
         Specs specs = specsDao.findById(specsId).get();
         Info info = infoDao.findById(specs.getGoodsId()).get();

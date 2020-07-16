@@ -34,7 +34,7 @@ public class GoodsController {
      * @param categoryType 商品类型
      * @return 商品信息
      */
-    @GetMapping("/goods/{categoryType}")
+    @GetMapping("/byCategoryType/{categoryType}")
     public ResultUtil findByCategoryType(@PathVariable("categoryType") Integer categoryType){
         return ResultUtil.success(goodsService.findInfoByCategoryType(categoryType));
     }
@@ -44,7 +44,7 @@ public class GoodsController {
      * @param goodsId 商品ID
      * @return 商品规格
      */
-    @GetMapping("/goods/{goodsId}")
+    @GetMapping("/byGoodsId/{goodsId}")
     public ResultUtil findSpecsByGoodsId(@PathVariable("goodsId") Integer goodsId){
         return ResultUtil.success(goodsService.findSpecsByGoodsId(goodsId));
     }

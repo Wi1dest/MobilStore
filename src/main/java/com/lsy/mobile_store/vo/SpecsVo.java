@@ -1,5 +1,6 @@
 package com.lsy.mobile_store.vo;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -24,5 +25,6 @@ public class SpecsVo {
     /**
      * 商品规格
      */
+    @JsonProperty("sku")
     private SkuVo skuVo;
 }

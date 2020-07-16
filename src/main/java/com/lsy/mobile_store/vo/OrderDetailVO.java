@@ -48,6 +48,7 @@ public class OrderDetailVO {
     /**
      * 商品名字
      */
+    @JsonProperty("goodsName")
     private String goodsName;
 
     /**
