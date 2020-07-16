@@ -118,7 +118,9 @@ public class GoodsServiceImpl implements GoodsService {
         List<GoodsSpecsCasVO> goodsSpecsCasVOList = new ArrayList<>();
         GoodsSpecsVo goodsSpecsVo;
         GoodsSpecsCasVO goodsSpecsCasVO;
+        int totalStock = 0;
         for (Specs specs : specsList) {
+            totalStock += specs.getSpecsStock();
             goodsSpecsVo = new GoodsSpecsVo();
             BeanUtils.copyProperties(specs,goodsSpecsVo);
             goodsSpecsVoList.add(goodsSpecsVo);
@@ -136,7 +138,7 @@ public class GoodsServiceImpl implements GoodsService {
         Integer price = info.getPrice().intValue();
         skuVo.setPrice(price+".00");
         // skuVo中的stock_num部分
-        skuVo.setStock_num(info.getStock());
+        skuVo.setStock_num(totalStock);
 
         specsVo.setSkuVo(skuVo);
         return specsVo;
